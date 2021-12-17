@@ -1,0 +1,139 @@
+body {
+    width: 1650px;
+    height: 800px;
+    background-color: #fbfcfd;
+    font-family: MuseoSans-300;
+  }
+  #logo {
+    /* border:1px solid red; */
+    width: 10%;
+    height: 60px;
+    margin: auto;
+  }
+  #para {
+    margin-left: 36.5%;
+  }
+  #para1 {
+    font-size: 40px;
+  }
+  @media (min-width: 0px) and (max-width: 500px) {
+    #logo {
+      margin-top: 450px;
+      margin-bottom: 0px;
+      height: 100px;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 800px) {
+    #logo {
+      margin-top: 50px;
+      /* height:100px; */
+    }
+  }
+  @media (min-width: 800px) {
+    #logo {
+      /* margin-top: 50px; */
+      /* height:100px; */
+    }
+  }
+
+  #logo > img {
+    height: 90%;
+    width: 100%;
+  }
+
+  .inputfilled {
+    width: 90%;
+    height: 26px;
+  }
+  #btn {
+    width: 40%;
+    height: 35px;
+    background-color: rgb(247, 117, 70);
+    color: white;
+    border-radius: 5px;
+    margin-left: 50%;
+    border: none;
+  }
+  #btn:hover {
+    font-weight: bold;
+    background-color: orangered;
+  }
+  #box {
+    width: 26%;
+    height: 600px;
+    margin: auto;
+    border: 1px solid rgb(134, 134, 134);
+    padding: 10px;
+    padding-top: 5px;
+    box-shadow: rgba(52, 52, 168, 0.25) 0px 6px 12px -2px,
+      rgba(32, 13, 13, 0.3) 0px 3px 7px -3px;
+  }
+
+  @media (min-width: 0px) and (max-width: 500px) {
+    #box {
+      /* margin-top: 200px; */
+      width: 55%;
+      height: 1000px;
+      justify-content: center;
+    }
+    #box > input {
+      font-size: 34px;
+      height: 60px;
+    }
+    #box > label {
+      font-size: 34px;
+      font-weight: bold;
+    }
+    #box > h2 {
+      font-size: 34px;
+    }
+    #box > #btn {
+      font-size: 34px;
+      height: 60px;
+    }
+    div > p {
+      font-size: 34px;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 800px) {
+    #box {
+      /* margin-top: 200px; */
+      width: 45%;
+      height: 1100px;
+      justify-content: center;
+    }
+    #box > input {
+      font-size: 34px;
+      height: 60px;
+    }
+    #box > label {
+      font-size: 34px;
+    }
+    #box > h2 {
+      font-size: 34px;
+    }
+    #box > #btn {
+      font-size: 34px;
+      height: 60px;
+    }
+    div > p {
+      font-size: 34px;
+    }
+  }
+
+  @media (min-width: 800px) {
+  }
+
+  span {
+    color: #003153;
+  }
+  p > span > a {
+    text-decoration: none;
+    color: #003153;
+  }
+  p > span > a:hover {
+    font-weight: bold;
+  }
+  #byclick {
+    color: #787878;
+  }
